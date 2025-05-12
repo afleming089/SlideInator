@@ -1,0 +1,17 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "User enters a topic and slides are auto created.",
+  "license": "MIT",
+  "author": "Anton Fleming",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electronmon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^36.2.0",
+    "electronmon": "^2.0.3"
+  }
+}

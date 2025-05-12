@@ -1,0 +1,13 @@
+Main Function
+Creates a powerpoint based on a topic. Pulls text and images from web and auto creates a powerpoint.
+
+How it works
+User puts in a topic.
+Searches up topic and displays different sites.
+User selects sites to be used as sources.
+Scrapes the sites for info and adds that into x amount of slides chosen by user.
+Can chose to add quotes or paraphrase.
+Cites the website on a work cited slide.
+Pulls images from site to display on slide.
+Can add or remove own points to slides.
+Can export to powerpoint, google slides, pdf, etc.
