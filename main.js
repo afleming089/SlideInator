@@ -4,9 +4,11 @@ require("@electron/remote/main").initialize();
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 400,
-    height: 400,
+    width: 900,
+    height: 650,
     resizable: true,
+    titleBarStyle: "hidden",
+    ...(process.platform !== "darwin" ? { titleBarOverlay: true } : {}),
     webPreferences: {
       enableRemoteModule: true,
     },
