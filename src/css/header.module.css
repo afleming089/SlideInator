@@ -1,0 +1,10 @@
+.titlebar {
+  /* allows window dragging for electron apps */
+  app-region: drag;
+
+  background: #ff7601;
+  text-align: left;
+}
+.titlebar h3 {
+  padding: 1px 3px;
+}

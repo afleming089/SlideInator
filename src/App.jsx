@@ -1,5 +1,5 @@
 import { BasicForm } from "./components/form";
-import { Header } from "./components/header";
+import { TitleBar } from "./components/headers";
 import "./App.css";
 
 function App() {
@@ -12,9 +12,7 @@ function App() {
         crossOrigin="anonymous"
       />
       <link rel="stylesheet" href=".src/index.css" />
-
-      <div class="titlebar">yes</div>
-      <Header></Header>
+      <TitleBar></TitleBar>
       <BasicForm></BasicForm>
     </>
   );
