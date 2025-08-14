@@ -1,4 +1,4 @@
-import styles from "../css/header.module.css";
+import styles from "../css/titlebar.module.css";
 
 function TitleBar() {
   return (

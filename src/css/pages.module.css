@@ -1,0 +1,5 @@
+form {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  margin-bottom: 16px;
+}

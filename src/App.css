@@ -6,3 +6,29 @@
   background: #00809d;
   height: 100vh;
 }
+form {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  margin-bottom: 16px;
+  width: 70%;
+  margin: 0 auto; /* Center the form */
+  text-align: left;
+}
+form label {
+  font-size: 1.4rem;
+  margin-bottom: 4px; /* Small space between label and input */
+  font-weight: bold;
+}
+input {
+  color: black;
+  background: #fcecdd;
+  border-style: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+button {
+  background: #ff7601;
+  color: #fcecdd;
+  border-style: none;
+  padding: 5px;
+}

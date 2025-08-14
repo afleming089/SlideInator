@@ -1,5 +1,5 @@
-import { BasicForm } from "./components/form";
-import { TitleBar } from "./components/headers";
+import { TitleBar } from "./components/titlebar";
+import Home from "./pages/home";
 import "./App.css";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       />
       <link rel="stylesheet" href=".src/index.css" />
       <TitleBar></TitleBar>
-      <BasicForm></BasicForm>
+      <Home></Home>
     </>
   );
 }
