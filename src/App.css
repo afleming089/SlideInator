@@ -8,9 +8,8 @@
 }
 form {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  margin-bottom: 16px;
-  width: 70%;
+  width: 90%;
+  max-width: 700px;
   margin: 0 auto; /* Center the form */
   text-align: left;
 }
@@ -25,10 +24,17 @@ input {
   border-style: none;
   border-radius: 3px;
   padding: 5px;
+  width: 100%;
 }
 button {
   background: #ff7601;
   color: #fcecdd;
   border-style: none;
-  padding: 5px;
+  padding: 9px;
+}
+article {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 700px;
+  text-align: center;
 }

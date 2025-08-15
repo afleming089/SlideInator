@@ -6,6 +6,8 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 650,
     height: 700,
+    minWidth: 300,
+    minHeight: 300,
     resizable: true,
     titleBarStyle: "hidden",
     ...(process.platform !== "darwin" ? { titleBarOverlay: true } : {}),
